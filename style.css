@@ -57,3 +57,24 @@ body{
     font-family:'Courier New', Courier, monospace  
 
 }
+
+.period-selection{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.period-btn{
+    background: none;
+    border: none;
+    color: hsl(235, 45%, 61%);
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.period-btn.active , 
+.period-btn.active{
+    color: white;
+}

@@ -110,8 +110,7 @@ body {
     background-size: 60px;
     background-repeat: no-repeat;
     background-position: top 0px right 10px;
-    border-top-right-radius:15px ;
-    border-top-left-radius:15px ;
+    
 }
 
 .activity-card.work .activity-header { background-image: url('./images/icon-work.svg'); background-color: rgb(184, 98, 48); }

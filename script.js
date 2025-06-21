@@ -11,7 +11,7 @@ fetch('data.json')
     activitycards.forEach(card => {
       const title = card.querySelector('h2').textContent
       const activity = data.find(function(item){
-        return item.title === title 
+        return item.title == title 
       })
       if (activity){
         const time = activity.timeframes[period]

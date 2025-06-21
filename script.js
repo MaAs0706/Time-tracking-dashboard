@@ -29,6 +29,18 @@ fetch('data.json')
 
   update(currentperiod)
 
+  periodbutton.forEach(button =>{
+    button.addEventListener('click' , function(){
+      periodbutton.forEach(function(btn){
+        btn.classList.remove('active');
+      })
+      button.classList.add('active')
+      
+      currentperiod = button.id
+      update(currentperiod)
+    })
+  })
+
 
 
 
